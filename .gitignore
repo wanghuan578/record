@@ -1,0 +1,15 @@
+# file ignore
+*.o
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# temp ignore
+*.log
+*.bk
+*.cache
+*.diff
+*.patch
+*.tmp

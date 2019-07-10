@@ -1,0 +1,17 @@
+fileindex 安装说明：
+编译：make clean;make;make install
+
+
+生成静态库及动态库文件在：./lib/目录下
+./sbin/		程序目录
+./conf/		配置文件目录
+./logs/		log文件目录，如需要请定时清理
+
+配置文件可用参数：
+tspath 				ts文件目录
+max_channels 		最大支持频道数，默认512，不超过不要设置
+work_threads 		工作线程数，默认8，如果启动时间比较长，可以改大。
+
+
+
+
